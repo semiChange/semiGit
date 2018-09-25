@@ -1,0 +1,2 @@
+# semiGit
+simple git guide
