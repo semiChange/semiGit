@@ -1,76 +1,10 @@
 ## git配置
 命令：git config
 作用：配置、读取 环境变量
-## git配置
-命令：git config
-作用：配置、读取 环境变量
-说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .## git配置
-命令：git config
-作用：配置、读取 环境变量
-## git配置
-命令：git config
-作用：配置、读取 环境变量
 说明：变量存放位置，
 1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
 2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
 3. .git/config 只针对当前工作目录, 内层配置会覆盖外层
-
-### 配置用户信息
-git config --global user.name "runoob"
-git config --global user.email test@runoob.com
-
-### 查看配置信息
-git 说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .## git配置
-git/config 只针对当前工作目录, 内层配置会覆盖外层
-
-### 配置用户信息
-git config --global user.name "runoob"
-git config --global user.email test@runoob.com
-
-### 查看配置信息
-git 说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .## git配置
-命令：git config
-作用：配置、读取 环境变量
-说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .git/config 只针对当前工作目录, 内层配置会覆盖外层
-
-## git配置
-命令：git config
-作用：配置、读取 环境变量
-## git配置
-命令：git config
-作用：配置、读取 环境变量
-说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .git/config 只针对当前工作目录, 内层配置会覆盖外层
-
-### 配置用户信息
-git config --global user.name "runoob"
-git config --global user.email test@runoob.com
-
-### 查看配置信息
-git 说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .## git配置
-### 配置用户信息
-git config --global user.name "runoob"
-git config --global user.email test@runoob.com
-
-### 查看配置信息
-git git/config 只针对当前工作目录, 内层配置会覆盖外层
 
 ### 配置用户信息
 git config --global user.name "runoob"
@@ -116,7 +50,7 @@ git push origin --delete old-branch
 ## git 工作区/暂存区/版本库 概念
 工作区: 就是电脑上看到的目录
 暂存区a2: stage/index 也叫索引区, 在.git/index文件中
-版本库3: 在 .git目录, 版本库中包含了暂存区
+版本库a3: 在 .git目录, 版本库中包含了暂存区
 
 ### 一些说明
 (工作区) <--> {(暂存区)<-->(版本库)}
@@ -128,45 +62,5 @@ git rm --cached <file>      暂存区文件被删除,工作区不变
 git checkout ./<file>       会用暂存区文件替换工作区,会清除工作区未添加到暂存区的内容
 git checkout HEAD ./<file>  既清除工作区未提交改动,也清除暂存区未提交改动
 a1
-## git配置
-命令：git config
-作用：配置、读取 环境变量
-## git配置
-命令：git config
-作用：配置、读取 环境变量
-说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .git/config 只针对当前工作目录, 内层配置会覆盖外层
 
-### 配置用户信息
-git config --global user.name "runoob"
-git config --global user.email test@runoob.com
-
-### 查看配置信息
-git 说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .## git配置
-
-## git配置
-命令：git config
-作用：配置、读取 环境变量
-## git配置
-命令：git config
-作用：配置、读取 环境变量
-说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .git/config 只针对当前工作目录, 内层配置会覆盖外层
-
-### 配置用户信息
-git config --global user.name "runoob"
-git config --global user.email test@runoob.com
-
-### 查看配置信息
-git 说明：变量存放位置，
-1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
-2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
-3. .## git配置
 a2
