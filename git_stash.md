@@ -9,6 +9,7 @@
 
 3. git stash pop
 取出最近一次暂存,并删除该记录xxxxxx
+ruguochongtu
 
 4. git stash apply stash@{X}
 取出暂存记录x
