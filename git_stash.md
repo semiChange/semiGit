@@ -17,5 +17,7 @@ ruguochongtu
 5. git stash drop stash@{x}
 删除暂存记录
 
+6. git stash clear
+清除所有暂存
 
 
