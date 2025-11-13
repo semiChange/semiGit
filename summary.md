@@ -15,6 +15,64 @@ git config --list
 
 ## 工作流程
 (本地库) (缓存区) (工作区)
+git 说明：变量存放位置，
+1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
+2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
+3. .## git配置
+git/config 只针对当前工作目录, 内层配置会覆盖外层
+
+### 配置用户信息
+git config --global user.name "runoob"
+git config --global user.email test@runoob.com
+
+### 查看配置信息
+git 说明：变量存放位置，
+1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
+2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
+3. .## git配置
+命令：git config
+作用：配置、读取 环境变量
+说明：变量存放位置，
+1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
+2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
+3. .git/config 只针对当前工作目录, 内层配置会覆盖外层
+
+## git配置
+命令：git config
+作用：配置、读取 环境变量
+## git配置
+命令：git config
+作用：配置、读取 环境变量
+说明：变量存放位置，
+1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
+2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
+3. .git/config 只针对当前工作目录, 内层配置会覆盖外层
+
+### 配置用户信息
+git config --global user.name "runoob"
+git config --global user.email test@runoob.com
+
+### 查看配置信息
+git 说明：变量存放位置，
+1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
+2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
+3. .## git配置
+### 配置用户信息
+git config --global user.name "runoob"
+git config --global user.email test@runoob.com
+
+### 查看配置信息
+git git/config 只针对当前工作目录, 内层配置会覆盖外层
+
+### 配置用户信息
+git config --global user.name "runoob"
+git config --global user.email test@runoob.com
+
+### 查看配置信息
+git config --list
+
+## 工作流程
+(本地库) (缓存区) (工作区)
 1. 克隆仓库
 (远程仓库) -> (本地仓库)
 参与一个已有的项目,需要克隆到本地,变成本地仓库
@@ -25,6 +83,9 @@ cd test
 通常不建议在master分支上开发, 创建一个新的分支
 git checkout -b slave
 
+(本地仓库) < 缓存区
+3. 修改文件后暂存文件
+(工作区) -> (暂存区)
 3. 修改文件后缓存文件
  (缓存区) < 工作区
 git add 1.txt
@@ -64,4 +125,20 @@ git checkout ./<file>       会用缓存区文件替换工作区,会清除工作
 git checkout HEAD ./<file>  既清除工作区未提交改动,也清除缓存区未提交改动
 a1
 
-a2
+## git配置
+命令：git config
+作用：配置、读取 环境变量
+说明：变量存放位置，
+1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
+2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
+3. .git/config 只针对当前工作目录, 内层配置会覆盖外层
+
+### 配置用户信息
+git config --global user.name "runoob"
+git config --global user.email test@runoob.com
+
+### 查看配置信息
+git 说明：变量存放位置，
+1. /etc/gitconfig  使用 git config --system 操作此文件,针对系统中所有用户
+2. ~/.gitconfig 使用 git config --global 操作此文件,针对当前用户
+3. .## git配置
