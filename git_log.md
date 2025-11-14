@@ -1,3 +1,19 @@
+## 日志示例
+$ git log --oneline
+ea9ac9a (HEAD -> master) zj:v7  // 本地HEAD头位置 (表示本地提交提早远程提交)
+5f324e7 zj: v6
+f35faf0 zj: v5
+dfd2f01 (origin/master, origin/HEAD) zj:v4  // 远程HEAD头位置
+745e267 zj: v3
+edff7ea zj: v2
+e76f460 zj: v1
+
+注: 如果git pull 提示 already up to date 表示本地库的最新远程数据已经和远程库数据相同
+只是本地库的提交比远程库更新
+
+
+
+
 ## 查看commit记录
 * git log --graph --oneline
 --pretty 格式化输出  
