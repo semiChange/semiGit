@@ -1,26 +1,24 @@
-## ±ä»ù²Ù×÷
+## git rebase
+æŠŠè‡ªèº«Aä¸Bçš„å·®å¼‚éƒ¨åˆ†, å˜åŸºè¿‡å»
 
 
-
-
-
-
-## ĞŞ¸ÄÌá½»ĞÅÏ¢
-1. ²é¿´Ìá½»ĞÅÏ¢
+1. æŸ¥çœ‹æäº¤ä¿¡æ¯
 git log
 b2c4743 test1
-664d5e1 init  (µÚÒ»´ÎÌá½»)
+664d5e1 init  (ç¬¬ä¸€æ¬¡æäº¤)
 
-2. ²Ù×÷ÏëÒªĞŞ¸ÄinitĞÅÏ¢ (rebase ×¢ÒâË³ĞòÊÇ·´µÄ)
+2. æ“ä½œæƒ³è¦ä¿®æ”¹initä¿¡æ¯ (rebase æ³¨æ„é¡ºåºæ˜¯åçš„)
 git rebase -i HEAD~2
-pick 664d5e1 init (µÚÒ»´ÎÌá½»)
+pick 664d5e1 init (ç¬¬ä¸€æ¬¡æäº¤)
 pick b2c4743 test1 
 
-3. °Ñpick ¸ÄÎªe»òedit, È»ºó±£´æÍË³ö
-e664d5e1 init (µÚÒ»´ÎÌá½»)
+3. æŠŠpick æ”¹ä¸ºeæˆ–edit, ç„¶åä¿å­˜é€€å‡º
+e664d5e1 init (ç¬¬ä¸€æ¬¡æäº¤)
 pick b2c4743 test1 
 
-4. ÌáÊ¾ Ê¹ÓÃ git commit --amend È»ºó git rebase --continue
+4. æç¤º ä½¿ç”¨ git commit --amend ç„¶å git rebase --continue
 git commit --amend
-°Ñinit ¸ÄÎª init modify
+æŠŠinit æ”¹ä¸º init modify
 git rebase --continue
+
+

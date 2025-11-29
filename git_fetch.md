@@ -1,3 +1,14 @@
+## git fetch 
+拉取远程库  
+
+git fetch + git rebase = git pull --rebase  
+git fetch + git merge = git pull  
+
+
+
+
+
+
 ```c
 // 初始化本地库
 PS D:\semiGit> git init
